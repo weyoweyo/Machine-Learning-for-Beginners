@@ -37,7 +37,9 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#MathStat">Math & Stat</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#supervised">Supervised Learning</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#unsupervised">Unsupervised Learning</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#boosting">Boosting</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#neural network">Neural Network</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#advanced">Advanced Topics</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#tools">Tools</a></li>             
             </ul>
         </div>
@@ -53,7 +55,12 @@
                 </h2>
                 <p style="font-family: 'Open Sans', sans-serif; font-size:20px; color: black;"> 
                     Hello / Bonjour / 你好, This web is under construction :)
-                </p>               
+                </p>   
+
+                <h4 class="mb-0" style="color:teal;">Reference</h4>
+                <p style="font-family: 'Open Sans', sans-serif; font-size:20px; color: black;"> 
+                    [1] <a href=http://cs229.stanford.edu/syllabus-spring2021.html> Stanford CS 229 Machine Learning Syllabus and Course Schedule </a> <br>
+                </p>              
             </div>
         </section>
 
@@ -71,7 +78,12 @@
                     Chapitre 4: <a href="00-Math-Stat/MAT1400-Hiver2020/4_Chapitre4.pdf">Chapitre 4.pdf</a>
                     Chapitre 5: <a href="00-Math-Stat/MAT1400-Hiver2020/5_Chapitre5.pdf">Chapitre 5.pdf</a>
                     Chapitre 6 & 7: <a href="00-Math-Stat/MAT1400-Hiver2020/6_Chapitre6&7.pdf">Chapitre 6 & 7.pdf</a>
-                </div>   
+                </div> 
+
+                <h4 class="mb-1">CS 229 Probability Review</h4>  
+                <div style="font-family: 'Open Sans', sans-serif; font-size:16px; color: black;">                                                         
+                     <a href="00-Math-Stat/CS229/cs229-notes02-prob.pdf">cs229-prob.pdf</a>                         
+                </div> 
                 <br>
                 <h3 class="mb-0" style="color:teal;">Statistics</h3>
                 <h4 class="mb-1">STT2400 Linear Regression [Class notes UdeM Summer 2021(in English) with Melchior Basanze]</h4>
@@ -115,7 +127,10 @@
         <section class="resume-section" id="supervised">
             <div class="resume-section-content">
                 <h2 class="mb-1" style="color:slategrey">Supervised Learning</h2>
-                <br>
+                <div style="font-family: 'Open Sans', sans-serif; font-size:20px; color: black;">                                                         
+                    CS229 Supervised Learning notes: <a href="00-Math-Stat/CS229/cs229-notes01-supervised-learning.pdf">supervised-learning.pdf</a>                         
+                </div> 
+
                 <h3 class="mb-1" style="color:teal;">Linear Regression</h3>
                 <p style="font-family: 'Open Sans', sans-serif; font-size:18px; color: black;"> 
                     scikit-learn user guide: 
@@ -162,7 +177,10 @@
                     </a><br>
                     SVM Mathematical formulation: 
                     <a href="03-SVM-and-SVR/SVM-Mathematical-formulation.pdf">SVM-Mathematical-formulation.pdf
-                    </a>
+                    </a><br>
+                    CS229 SVM notes:
+                    <a href="00-Math-Stat/CS229/cs229-notes04-svm.pdf">CS229-SVM.pdf
+                    </a><br>
                 </p>
                 <h3 class="mb-1" style="color:teal;">SVM - SVC</h3>
                 <p style="font-family: 'Open Sans', sans-serif; font-size:18px; color: black;"> 
@@ -214,7 +232,11 @@
                     scikit-learn API: 
                     <a href="https://scikit-learn.org/stable/modules/classes.html#module-sklearn.naive_bayes">
                         sklearn.naive_bayes: 
-                    </a>                  
+                    </a><br>  
+
+                    CS229 Naive Bayes notes:
+                    <a href="00-Math-Stat/CS229/cs229-notes03-naive-bayes.pdf">naive-bayes.pdf</a><br>
+                               
                 </p>
                 <h4 class="mb-1" style="color:teal;">Beyasian Network</h4>
                 <br>
@@ -229,7 +251,11 @@
                     scikit-learn API:  
                     <a href="https://scikit-learn.org/stable/modules/classes.html#module-sklearn.tree">
                         sklearn.tree: Decision Trees
-                    </a>                  
+                    </a><br> 
+                    CS 229 Decision Tree notes:   
+                    <a href="00-Math-Stat/CS229/cs229-notes13-decision-tree.pdf">
+                        decision-tree.pdf
+                    </a><br>          
                 </p>
                 <br>
 
@@ -285,6 +311,7 @@
         <section class="resume-section" id="unsupervised">
             <div class="resume-section-content">
                 <h2 class="mb-0" style="color:slategrey">Unsupervised Learning</h2>
+                
                 <h3 class="mb-1" style="color:rgba(0, 0, 128, 0.555);">Decomposition</h3>
                 <h3 class="mb-1" style="color:teal;">PCA</h3>
                 <p style="font-family: 'Open Sans', sans-serif; font-size:18px; color: black;"> 
@@ -295,7 +322,17 @@
                     scikit-learn API:  
                     <a href="https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html#sklearn.decomposition.PCA">
                         sklearn.decomposition.PCA
-                    </a> 
+                    </a><br>
+
+                    CS 229 Principal component analysis (PCA) notes:   
+                    <a href="00-Math-Stat/CS229/cs229-notes11-pca.pdf">
+                        pca.pdf
+                    </a><br> 
+
+                    CS 229 Independent Components Analysis (ICA) notes:   
+                    <a href="00-Math-Stat/CS229/cs229-notes12-ica.pdf">
+                        ica.pdf
+                    </a><br>
                 </p>
                 <br>
 
@@ -312,6 +349,7 @@
                 </p>
 
                 <h3 class="mb-1" style="color:teal;">K-means</h3>
+                
                 <p style="font-family: 'Open Sans', sans-serif; font-size:18px; color: black;"> 
                     scikit-learn user guide: 
                     <a href="https://scikit-learn.org/stable/modules/clustering.html#k-means">
@@ -320,7 +358,9 @@
                     scikit-learn API:  
                     <a href="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans">
                         sklearn.cluster.KMeans
-                    </a> 
+                    </a><br>
+                    CS229 K-means notes:
+                    <a href="00-Math-Stat/CS229/cs229-notes07-kmeans.pdf">Kmeans.pdf</a><br>
                 </p>
                 <br>
 
@@ -396,7 +436,37 @@
                     Reference: Devoir 2 STT3795 @UdeM avec Guy Wolf [in French]<br>                                                                   
                     Code: <a href="13-MDS-Isomap/Exo-stt3795/MDS_Isomap_Ex.html">MDS_Isomap_Ex.html</a> 
                 </p>  
-                <br>                
+                <br>   
+                
+                <h3 class="mb-1" style="color:rgba(0, 0, 128, 0.555);">Mixtures of Gaussians and the EM algorithm</h3>
+                <div style="font-family: 'Open Sans', sans-serif; font-size:18px; color: black;">                                                         
+                    CS229 GMM & EM notes: <br>
+                    <a href="00-Math-Stat/CS229/cs229-notes08-GMM-EM-1.pdf">GMM-EM-1.pdf</a><br>
+                    <a href="00-Math-Stat/CS229/cs229-notes09-GMM-EM-2.pdf">GMM-EM-2.pdf</a><br>
+                    <a href="00-Math-Stat/CS229/cs229-notes10-GMM-EM-Factor-Analysis.pdf">GMM-EM-Factor-Analysis.pdf</a><br>                
+                </div> 
+            </div>
+        </section>
+
+        <hr class="m-0" />
+        <!-- Boosting -->
+        <section class="resume-section" id="boosting">
+            <div class="resume-section-content">
+                <h2 class="mb-0" style="color:slategrey">Boosting</h2>
+                <div style="font-family: 'Open Sans', sans-serif; font-size:20px; color: black;">                                                         
+                    CS 229 Boosting notes:   
+                    <a href="00-Math-Stat/CS229/cs229-notes14-boosting.pdf">
+                        boosting.pdf
+                    </a><br> 
+                </div> 
+
+                
+                <h3 class="mb-1" style="color:teal;">Adaboost</h3>
+                <br>
+
+                <h3 class="mb-1" style="color:teal;">XGBoost</h3>
+                <br>
+                
             </div>
         </section>
 
@@ -406,6 +476,15 @@
         <section class="resume-section" id="neural network">
             <div class="resume-section-content">
                 <h2 class="mb-0" style="color:slategrey">Neural Network</h2>
+                <div style="font-family: 'Open Sans', sans-serif; font-size:20px; color: black;">                                                         
+                    CS229 Deep Learning notes:
+                    <a href="00-Math-Stat/CS229/cs229-notes05-deep-learning.pdf">CS229-dl.pdf
+                    </a><br>
+                    CS229 Deep Learning Intro notes:
+                    <a href="00-Math-Stat/CS229/cs229-notes06-intro-dl.pdf">CS229-dl-intro.pdf
+                    </a><br>
+                </div> 
+
                 <h3 class="mb-1" style="color:teal;">Forword prop</h3>
                 <br>
                 <h3 class="mb-1" style="color:teal;">Back prop</h3>
@@ -414,6 +493,32 @@
                 <br>
                 <h3 class="mb-1" style="color:teal;">RNN</h3>
                 <br>
+            </div>
+        </section>
+
+        <hr class="m-0" />
+        <!-- Advanced Topics -->
+        <section class="resume-section" id="advanced">
+            <div class="resume-section-content">
+                <h2 class="mb-0" style="color:slategrey">Advanced Topics</h2>
+                <h3 class="mb-1" style="color:teal;">Self Supervising</h3>
+                <div style="font-family: 'Open Sans', sans-serif; font-size:20px; color: black;">                                                         
+                    CS 229 Self Supervision:   
+                    <a href="00-Math-Stat/CS229/cs229-notes15-selfsupervision.pdf">
+                        self-supervision.pdf
+                    </a><br> 
+                </div> 
+                <br>
+
+                <h3 class="mb-1" style="color:teal;">Reinforcement Learning</h3>
+                <div style="font-family: 'Open Sans', sans-serif; font-size:20px; color: black;">                                                         
+                    CS 229 Reinforcement Learning notes:   
+                    <a href="00-Math-Stat/CS229/cs229-notes16-reinforcement-learning.pdf">
+                        reinforcement-learning.pdf
+                    </a><br> 
+                </div> 
+                <br>
+               
             </div>
         </section>
 
@@ -426,11 +531,24 @@
                 <h3 class="mb-1" style="color:teal;">Python</h3> 
                 <h4 class="mb-1">Exploratory Data Analysis (EDA) and Visualisation</h4>    
                 
-                <p style="font-family: 'Open Sans', sans-serif; font-size:18px; color: black;"> 
-                    Analysis of variance (ANOVA): Using ANOVA for categorical feature selection<br>
-                    Heatmap: Using correlation matrix to see all the numerical correlation between features<br>
+                <p style="font-family: 'Open Sans', sans-serif; font-size:18px; color: teal;"> 
+                    Analysis of variance (ANOVA): Using ANOVA for categorical feature selection         
                 </p>
+                <p style="font-family: 'Open Sans', sans-serif; font-size:18px; color: slategrey;"> 
+                    code: <a href=>
+                        ANOVA
+                    </a>            
+                </p>
+                
               
+                <p style="font-family: 'Open Sans', sans-serif; font-size:18px; color: teal;"> 
+                    Heatmap: Using correlation matrix to see all the numerical correlation between features                    
+                </p>
+                <p style="font-family: 'Open Sans', sans-serif; font-size:18px; color: slategrey;"> 
+                    code: <a href=>
+                        Heatmap 
+                    </a>            
+                </p>
 
                 <h4 class="mb-1">Feature engineering</h4> 
 
@@ -438,6 +556,14 @@
                 
                 <h4 class="mb-1">Dataset transformations</h4>
 
+                <h4 class="mb-1">Model Selection</h4>
+                <div style="font-family: 'Open Sans', sans-serif; font-size:18px; color: black;">                                                         
+                    CS229 notes: <br>
+                    <a href="00-Math-Stat/CS229/models/Bias-Variance.pdf">Bias-Variance</a>, 
+                    <a href="00-Math-Stat/CS229/models/Error-Analysis.pdf">Error-Analysis</a>, 
+                    <a href="00-Math-Stat/CS229/models/Evaluation-Metrics.pdf">Metrics</a>, 
+                    <a href="00-Math-Stat/CS229/models/Regularization-and-Model-Selection.pdf">Regularization</a><br>
+                </div> 
                 <br>              
                 <h3 class="mb-1" style="color:teal;">SQL</h3>
                 <br>
